@@ -1,0 +1,274 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 30px;
+  position:relative;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 70px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.container1{
+    background-color: #E4F9F5;
+    position: relative;
+    margin: 0 0 0 0;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 110px;
+}
+.col{
+    text-decoration-color: Black;
+}
+
+.middle-container {
+
+  margin: 120px 0;
+}
+
+.my-pic{
+    width:200px;
+    height:220px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 30px auto 100px auto;
+  text-align: left;
+}
+
+.table-info{
+    margin-left: 170px;
+
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+.skills{
+    color:black;
+    margin-bottom:30px;
+    padding-bottom: 70px;
+}
+
+.skill-img{
+  padding:10px;
+  margin:30px;
+}
+
+#skills {
+  background-color: #66BFBF;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.skills h2{
+  color:white;
+}
+
+.skills h3{
+  color: #40514E;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.project{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  height: 50%;
+}
+
+
+.project-text {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #018383;
+}
+
+.project-image {
+  display:block;
+  width:120%;
+  height:120%;
+  margin:30px;
+
+}
+.project-image1 {
+  width: 302px;
+  height: 325px;
+  margin:30px;
+}
+
+.carousel-item{
+  padding-left:30%;
+  padding-right: 30%;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/* button */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+i {
+    font-size:30px;
+}
+.contact-me{
+  color: #40514E;
+  background-color: #66BFBF;
+  padding-top: 60px;
+  height: 600px;
+
+}
+
+
+.contact-me h2{
+  color:white;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer-link{
+
+  padding-bottom: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 20px;
+  width: 20px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 20px;
+  color: #66BFBF;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 20px;
+  color: #66BFBF;
+}
